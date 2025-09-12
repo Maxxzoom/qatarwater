@@ -73,11 +73,11 @@ export default function ArticlesPage() {
       </div>
 
       {/* Main Header */}
-      <div className="bg-gray-100 px-4 py-6">
+         <div className="bg-gray-100 px-4 py-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center">
-              <div className="text-orange-600 font-bold text-2xl">🦌</div>
+          <div className="flex items-center gap-6">
+            <div className="w-32 h-20 bg-white rounded-lg shadow-sm flex items-center justify-center p-3 border">
+              <img src="/tyson-logo.jpg" alt="TYSON Logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-blue-800 leading-tight">
@@ -88,19 +88,19 @@ export default function ArticlesPage() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center">
-              <div className="text-white text-xs font-bold text-center">
-                ISO
-                <br />
-                9001:2015
-              </div>
+            <div className="w-20 h-20 bg-white rounded-lg shadow-sm flex items-center justify-center p-2 border">
+              <img
+                src="/iso-9001-2015-logo.jpg"
+                alt="ISO 9001:2015 Certified"
+                className="w-full h-full object-contain"
+              />
             </div>
-            <div className="w-16 h-16 bg-blue-800 rounded flex items-center justify-center">
-              <div className="text-white text-xs font-bold text-center">
-                Water
-                <br />
-                Quality
-              </div>
+            <div className="w-20 h-20 bg-white rounded-lg shadow-sm flex items-center justify-center p-2 border">
+              <img
+                src="/water-quality-association-logo.jpg"
+                alt="Water Quality Association"
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
         </div>
