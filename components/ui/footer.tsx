@@ -12,17 +12,19 @@ const Footer = () => {
                 Muscat Water Treatment Trading & Contracting
               </h3>
               <p className="text-gray-300 text-sm leading-relaxed mb-4">
-                Expert solutions and sales - Qatar - Dubai - Al Ain - Liwa -
-                Oman - Muscat - Salalah - Barka - United Arab Emirates (UAE) -
-                Dubai - Sharjah - Ajman - Abu Dhabi - Fujairah - Ras al Khaimah
-                - Al Ain
+               Flat No. B1 1104,
+Sr. No. 28/2A, Shakuntala Kanade Park,
+Katraj Saswad Road, Near Rajlakshmi Furniture,
+Undri, VTC: Autadwadi Handewadi,
+PO: Phursungi, District: Pune,
+PIN Code: 412308.
               </p>
               <div className="text-gray-300 text-sm space-y-1">
                 <p>
                   <strong>Address:</strong> Muscat, Sultanate of Oman
                 </p>
                 <p>
-                  <strong>Phone:</strong> +968 94064811
+                  <strong>Phone:</strong> +91 9604338704
                 </p>
                 <p>
                   <strong>Email:</strong> response@qatarwatertreatment.com
