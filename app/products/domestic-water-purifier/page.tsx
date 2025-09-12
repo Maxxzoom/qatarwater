@@ -1,194 +1,109 @@
-import { Phone, Mail, Facebook, Twitter } from "lucide-react"
+import Header from "@/components/ui/header"
+import Footer from "@/components/ui/footer"
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import Image from "next/image"
 
 export default function DomesticWaterPurifierPage() {
   return (
-    <div className="min-h-screen bg-white">
-      {/* Top Header Bar */}
-      <div className="bg-cyan-600 text-white px-4 py-2">
-        <div className="max-w-7xl mx-auto flex justify-between items-center text-sm">
-          <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
-              <Phone className="w-4 h-4" />
-              <span>Tel: +968 94064811</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4" />
-              <span>response@qatarwatertreatment.com</span>
-            </div>
-          </div>
-          <div className="flex items-center gap-4">
-            <Facebook className="w-4 h-4 cursor-pointer hover:opacity-80" />
-            <Twitter className="w-4 h-4 cursor-pointer hover:opacity-80" />
-            <Button className="bg-slate-800 hover:bg-slate-700 text-white px-4 py-1 text-sm">Send An Enquiry</Button>
-          </div>
-        </div>
-      </div>
+    <div className="min-h-screen">
+      <Header />
 
-      {/* Main Header */}
-      <div className="bg-gray-100 px-4 py-6">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center">
-              <div className="text-orange-600 font-bold text-2xl">🦌</div>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-blue-800 leading-tight">
-                MUSCAT WATER TREATMENT
-                <br />
-                TRADING & CONTRACTING CO.
-              </h1>
-            </div>
-          </div>
-          <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center">
-              <div className="text-white text-xs font-bold text-center">
-                ISO
-                <br />
-                9001:2015
+      <main>
+        {/* Hero Section */}
+        <section className="bg-[#1e40af] text-white py-20">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h1 className="text-5xl font-bold mb-6">Domestic Water Purifier</h1>
+                <p className="text-xl text-[#0ea5e9] mb-8">
+                  Advanced water purification systems designed for home use, ensuring clean and safe drinking water for
+                  your family.
+                </p>
+                <div className="flex gap-4">
+                  <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3">Get Quote</Button>
+                  <Button
+                    variant="outline"
+                    className="border-white text-white hover:bg-white hover:text-[#1e40af] px-8 py-3 bg-transparent"
+                  >
+                    Learn More
+                  </Button>
+                </div>
               </div>
-            </div>
-            <div className="w-16 h-16 bg-blue-800 rounded flex items-center justify-center">
-              <div className="text-white text-xs font-bold text-center">
-                Water
-                <br />
-                Quality
+              <div className="relative">
+                <Image
+                  src="/domestic-water-purifier-system.jpg"
+                  alt="Domestic Water Purifier System"
+                  width={600}
+                  height={400}
+                  className="rounded-lg shadow-lg"
+                />
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Navigation */}
-      <nav className="bg-white shadow-sm px-4 py-2">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-8">
-            <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">
-              Home
-            </Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">
-              About Us ▼
-            </Link>
-            <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium">
-              Our Services
-            </Link>
-            <Button className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-2 rounded-full">Products ▼</Button>
-            <Link href="/clients" className="text-gray-700 hover:text-blue-600 font-medium">
-              Clients
-            </Link>
-            <Link href="/articles" className="text-gray-700 hover:text-blue-600 font-medium">
-              Articles
-            </Link>
-            <Link href="/enquiry" className="text-gray-700 hover:text-blue-600 font-medium">
-              Enquiry
-            </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
-              Contact Us
-            </Link>
+        {/* Product Details */}
+        <section className="py-16">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div>
+                <h2 className="text-3xl font-bold text-[#1e40af] mb-6">Product Features</h2>
+                <ul className="space-y-4 text-gray-700">
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#0ea5e9] rounded-full mt-2"></div>
+                    <span>Multi-stage filtration process</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#0ea5e9] rounded-full mt-2"></div>
+                    <span>RO + UV + UF technology</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#0ea5e9] rounded-full mt-2"></div>
+                    <span>TDS controller for essential minerals</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#0ea5e9] rounded-full mt-2"></div>
+                    <span>Large storage tank capacity</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-[#0ea5e9] rounded-full mt-2"></div>
+                    <span>Energy efficient operation</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2 className="text-3xl font-bold text-[#1e40af] mb-6">Specifications</h2>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Capacity:</span>
+                      <span>10-15 LPH</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Input Water:</span>
+                      <span>Municipal/Borewell</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Storage Tank:</span>
+                      <span>8-12 Liters</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Power:</span>
+                      <span>24V DC</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-semibold">Warranty:</span>
+                      <span>1 Year</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </nav>
+        </section>
+      </main>
 
-      {/* Product Details */}
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div>
-            <img
-              src="/domestic-water-purifier.jpg"
-              alt="Domestic Water Purifier"
-              className="w-full h-96 object-cover rounded-lg shadow-lg"
-            />
-          </div>
-          <div>
-            <h1 className="text-3xl font-bold text-gray-800 mb-6">Domestic Water Purifier</h1>
-            <div className="prose text-gray-600 space-y-4">
-              <p>
-                Our domestic water purifiers are designed to provide clean, safe drinking water for your home. These
-                systems effectively remove contaminants, chlorine, and impurities while retaining essential minerals.
-              </p>
-              <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Features:</h3>
-              <ul className="list-disc list-inside space-y-2">
-                <li>Multi-stage filtration system</li>
-                <li>UV sterilization technology</li>
-                <li>Compact design suitable for homes</li>
-                <li>Easy maintenance and filter replacement</li>
-                <li>High-quality food-grade materials</li>
-                <li>Energy efficient operation</li>
-              </ul>
-              <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Specifications:</h3>
-              <ul className="list-disc list-inside space-y-2">
-                <li>Capacity: 10-15 liters per hour</li>
-                <li>Power consumption: 25W</li>
-                <li>Dimensions: 350mm x 250mm x 450mm</li>
-                <li>Weight: 8-12 kg</li>
-                <li>Operating pressure: 0.3-2.0 kg/cm²</li>
-              </ul>
-            </div>
-            <div className="mt-8 flex gap-4">
-              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white">Get Quote</Button>
-              <Button variant="outline" className="border-cyan-600 text-cyan-600 hover:bg-cyan-50 bg-transparent">
-                Contact Us
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <footer className="bg-slate-800 text-white px-4 py-12">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="text-lg font-bold mb-4">Muscat Water Treatment Trading & Contracting</h3>
-              <p className="text-gray-300 text-sm leading-relaxed">
-                Expert solutions and sales - Qatar - Dubai - Al Ain - Liwa - Oman - Muscat - Salalah - Barka - United
-                Arab Emirates (UAE) - Dubai - Sharjah - Ajman - Abu Dhabi - Fujairah - Ras al Khaimah - Al Ain
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold mb-4">Links</h3>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li>
-                  <a href="#" className="hover:text-cyan-400">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-cyan-400">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-cyan-400">
-                    Our Services
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-cyan-400">
-                    Products
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-cyan-400">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold mb-4">Our Location</h3>
-              <p className="text-gray-300 text-sm">
-                Muscat, Oman
-                <br />
-                Tel: +968 94064811
-                <br />
-                Email: response@qatarwatertreatment.com
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
