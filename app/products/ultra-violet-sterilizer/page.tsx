@@ -31,7 +31,7 @@ export default function UltraVioletSterilizerPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/uv-sterilizer-system-with-stainless-steel-chamber.jpg"
+                  src="/ultra-voilet-sterilizer-1.jpg"
                   alt="Ultra Violet Sterilizer"
                   width={600}
                   height={400}

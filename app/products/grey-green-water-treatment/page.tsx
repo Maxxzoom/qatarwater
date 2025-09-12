@@ -31,7 +31,7 @@ export default function GreyGreenWaterTreatmentPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/wastewater-treatment-plant-with-biological-reacto.jpg"
+                  src="/grey-green-water-treatment-system.jpg"
                   alt="Grey Green Water Treatment System"
                   width={600}
                   height={400}

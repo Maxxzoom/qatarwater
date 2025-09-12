@@ -31,7 +31,7 @@ export default function WaterTankCleaningPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/water-tank-cleaning-service-with-professional-equ.jpg"
+                  src="/water-tank-cleaning-&-disinfection-1.jpg"
                   alt="Water Tank Cleaning Service"
                   width={600}
                   height={400}

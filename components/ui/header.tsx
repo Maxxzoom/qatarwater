@@ -291,7 +291,7 @@ const Header = () => {
                       Water Analysis & Consultation
                     </Link>
                     <Link
-                      href="/products/water-filter-service"
+                      href="/products/water-filter-service-amc"
                       className="block text-sm text-gray-600 hover:text-cyan-600 hover:underline"
                     >
                       Water Filter Service & AMC

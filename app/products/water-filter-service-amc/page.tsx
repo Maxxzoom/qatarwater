@@ -31,7 +31,7 @@ export default function WaterFilterServiceAMCPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/water-filter-maintenance-service-technician-repla.jpg"
+                  src="/water-filter-service-&-AMC.jpg"
                   alt="Water Filter Service & AMC"
                   width={600}
                   height={400}

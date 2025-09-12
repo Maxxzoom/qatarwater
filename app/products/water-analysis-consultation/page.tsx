@@ -31,7 +31,7 @@ export default function WaterAnalysisConsultationPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/water-analysis-laboratory-with-testing-equipment.jpg"
+                  src="/water-analysis-&-consultation-1.jpg"
                   alt="Water Analysis Laboratory"
                   width={600}
                   height={400}

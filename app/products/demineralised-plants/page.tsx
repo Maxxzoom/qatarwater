@@ -31,7 +31,7 @@ export default function DemineralisedPlantsPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/demineralization-plant-with-ion-exchange-columns.jpg"
+                  src="/demineralised-plants-&-Mixed-Bed-Plants.jpg"
                   alt="Demineralised Plants"
                   width={600}
                   height={400}
