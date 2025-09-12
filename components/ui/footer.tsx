@@ -12,12 +12,9 @@ const Footer = () => {
                 Muscat Water Treatment Trading & Contracting
               </h3>
               <p className="text-gray-300 text-sm leading-relaxed mb-4">
-               Flat No. B1 1104,
-Sr. No. 28/2A, Shakuntala Kanade Park,
-Katraj Saswad Road, Near Rajlakshmi Furniture,
-Undri, VTC: Autadwadi Handewadi,
-PO: Phursungi, District: Pune,
-PIN Code: 412308.
+                Flat No. B1 1104, Sr. No. 28/2A, Shakuntala Kanade Park, Katraj
+                Saswad Road, Near Rajlakshmi Furniture, Undri, VTC: Autadwadi
+                Handewadi, PO: Phursungi, District: Pune, PIN Code: 412308.
               </p>
               <div className="text-gray-300 text-sm space-y-1">
                 <p>
@@ -105,8 +102,7 @@ PIN Code: 412308.
           </div>
           <div className="border-t border-gray-700 mt-8 pt-6 text-center">
             <p className="text-gray-400 text-sm">
-              © 2025 TYSON. All rights
-              reserved. 
+              © 2025 TYSON. All rights reserved.
             </p>
           </div>
         </div>
