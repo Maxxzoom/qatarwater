@@ -105,9 +105,8 @@ PIN Code: 412308.
           </div>
           <div className="border-t border-gray-700 mt-8 pt-6 text-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Muscat Water Treatment Trading & Contracting Co. All rights
-              reserved. Designed And Promoted By Maharashtra Industries
-              Directory, www.maharashtradirectory.com
+              © 2025 TYSON. All rights
+              reserved. 
             </p>
           </div>
         </div>
