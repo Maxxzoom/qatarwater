@@ -94,7 +94,7 @@ PIN Code: 412308.
                 <p className="mt-4">
                   <strong>Contact Information:</strong>
                 </p>
-                <p>Tel: +1234567890</p>
+                <p>Tel: +91 9604338704</p>
                 <p>Email: dummy@gmail.com</p>
                 <p className="mt-4">
                   <strong>Service Areas:</strong>
