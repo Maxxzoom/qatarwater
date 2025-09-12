@@ -31,7 +31,7 @@ export default function WaterDispenserPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/water-dispenser-stainless-steel.jpg"
+                  src="/water-dispenser-2.jpg"
                   alt="Stainless Steel Water Dispenser"
                   width={600}
                   height={400}

@@ -31,7 +31,7 @@ export default function JumboWaterFiltersPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/jumbo-water-filters-blue-tanks.jpg"
+                  src="/jumbo-water-filter-1.jpg"
                   alt="Jumbo Water Filters with Blue Tanks"
                   width={600}
                   height={400}

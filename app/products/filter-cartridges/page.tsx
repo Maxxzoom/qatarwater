@@ -31,7 +31,7 @@ export default function FilterCartridgesPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/water-filter-cartridges-and-spare-parts-collection.jpg"
+                  src="/filter-cartridge-spares-paerts-&filter-bags.jpg"
                   alt="Filter Cartridges and Spare Parts"
                   width={600}
                   height={400}

@@ -31,7 +31,7 @@ export default function ShowerFilterPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/modern-shower-filter-system-with-chrome-finish.jpg"
+                  src="/shower-filter-1.jpg"
                   alt="Shower Filter System"
                   width={600}
                   height={400}

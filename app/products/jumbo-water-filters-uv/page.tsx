@@ -31,7 +31,7 @@ export default function JumboWaterFiltersUVPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder-hsf8f.png"
+                  src="/jumbo-water-filters-with-UV.jpg"
                   alt="Jumbo Water Filters with UV Sterilizer"
                   width={600}
                   height={400}
