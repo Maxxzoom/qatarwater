@@ -31,7 +31,7 @@ export default function MicroFilterPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/microfiltration-membrane-system-with-crossflow-de.jpg"
+                  src="/micro-filter-3.jpg"
                   alt="Micro Filter System"
                   width={600}
                   height={400}

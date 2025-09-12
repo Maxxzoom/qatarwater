@@ -31,7 +31,7 @@ export default function UFUltraFilterationPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/ultrafiltration-membrane-system-with-hollow-fiber.jpg"
+                  src="/uf-ultra-filteration-water-system-1.jpg"
                   alt="UF Ultra Filteration System"
                   width={600}
                   height={400}

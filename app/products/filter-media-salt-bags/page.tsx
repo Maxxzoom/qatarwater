@@ -31,7 +31,7 @@ export default function FilterMediaSaltBagsPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/filter-media-bags-sand-carbon-and-salt-for-water.jpg"
+                  src="/flter-media-&-salt-bags.jpg"
                   alt="Filter Media & Salt Bags"
                   width={600}
                   height={400}

@@ -31,7 +31,7 @@ export default function MicronCartridgeFilterPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/micron-cartridge-filter-housing-with-multiple-sta.jpg"
+                  src="/micron-cartridge-filter-1.jpg"
                   alt="Micron Cartridge Filter"
                   width={600}
                   height={400}

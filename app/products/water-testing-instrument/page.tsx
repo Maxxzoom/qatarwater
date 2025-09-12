@@ -31,7 +31,7 @@ export default function WaterTestingInstrumentPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/water-testing-instruments-ph-meter-tds-meter-and.jpg"
+                  src="/water-testing-instruments-1.jpg"
                   alt="Water Testing Instruments"
                   width={600}
                   height={400}

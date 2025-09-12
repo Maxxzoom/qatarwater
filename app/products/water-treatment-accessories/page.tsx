@@ -31,7 +31,7 @@ export default function WaterTreatmentAccessoriesPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/water-treatment-accessories-valves-pumps-and-fitt.jpg"
+                  src="/water-treatment-accessories-1.jpg"
                   alt="Water Treatment Accessories"
                   width={600}
                   height={400}
