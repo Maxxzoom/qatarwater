@@ -20,10 +20,10 @@ export default function ContactPage() {
       <Header />
 
       {/* Page Header */}
-      <div className="bg-slate-800 text-white px-4 py-16">
+      <div className="bg-cyan-700 text-white px-4 py-16">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
-          <p className="text-cyan-400">
+          <p className="text-white">
             Get in touch with our water treatment experts
           </p>
         </div>

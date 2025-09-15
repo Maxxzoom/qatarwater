@@ -23,7 +23,7 @@ export default function QualityPoliciesPage() {
           <div>
             <div className="bg-white p-8 rounded-lg shadow-sm border">
               <div className="flex items-start gap-4 mb-6">
-                <div className="w-16 h-16 bg-cyan-400 rounded flex items-center justify-center flex-shrink-0">
+                <div className="w-16 h-16 bg-cyan-700 rounded flex items-center justify-center flex-shrink-0">
                   <Globe className="w-8 h-8 text-white" />
                 </div>
                 <div>

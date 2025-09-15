@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
+import Carousel from "@/components/ui/carousels";
 
 export default function HomePage() {
   return (
@@ -11,65 +12,7 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative h-96 bg-gradient-to-r from-slate-900 to-slate-700 overflow-hidden">
-        <div className="absolute inset-0 bg-black/50"></div>
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('/industrial-water-treatment-facility-with-pipes-and.jpg')",
-          }}
-        ></div>
-
-        {/* Circular overlays with equipment images */}
-        <div className="absolute right-20 top-10">
-          <div className="w-32 h-32 rounded-full bg-white/90 p-2">
-            <img
-              src="/blue-water-treatment-tanks.jpg"
-              alt="Water treatment tanks"
-              className="w-full h-full rounded-full object-cover"
-            />
-          </div>
-        </div>
-        <div className="absolute right-32 bottom-10">
-          <div className="w-24 h-24 rounded-full bg-white/90 p-2">
-            <img
-              src="/water-filtration-equipment.jpg"
-              alt="Filtration equipment"
-              className="w-full h-full rounded-full object-cover"
-            />
-          </div>
-        </div>
-
-        <div className="relative z-10 max-w-7xl mx-auto px-4 h-full flex items-center">
-          <div className="text-white  bg-cyan-700 p-8 rounded-2xl">
-            <p className="text-sm mb-2 ">
-              Water & Waste Water Treatment Technologies
-            </p>
-            <h2 className="text-4xl font-bold mb-4 leading-tight ">
-              Multimedia Filter For
-              <br />
-              Commercial & Industrial
-            </h2>
-            <div className="flex gap-4">
-              <Button className="bg-transparent border border-white text-white hover:bg-white hover:text-slate-900">
-                Read More
-              </Button>
-              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white">
-                Contact Us
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        {/* Carousel indicators */}
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
-          <div className="w-2 h-2 bg-white rounded-full"></div>
-          <div className="w-2 h-2 bg-white/50 rounded-full"></div>
-          <div className="w-2 h-2 bg-white/50 rounded-full"></div>
-          <div className="w-2 h-2 bg-white/50 rounded-full"></div>
-        </div>
-      </div>
+      <Carousel />
 
       {/* Three Column Section */}
       <div className="bg-gray-50 px-4 py-12">

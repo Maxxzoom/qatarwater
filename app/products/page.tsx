@@ -1,7 +1,7 @@
-import Header from "@/components/ui/header"
-import Footer from "@/components/ui/footer"
+import Header from "@/components/ui/header";
+import Footer from "@/components/ui/footer";
 // import ProductsSection from "@/components/products-section"
-import Link from "next/link"
+import Link from "next/link";
 
 export default function ProductsPage() {
   return (
@@ -10,12 +10,12 @@ export default function ProductsPage() {
 
       <main>
         {/* Hero Section */}
-        <section className="bg-[#1e40af] text-white py-20">
+        <section className="bg-cyan-700 text-white py-20">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">Our Products</h1>
-            <p className="text-xl text-[#0ea5e9] max-w-3xl mx-auto">
-              High-quality water treatment equipment and systems for residential, commercial, and industrial
-              applications
+            <p className="text-xl text-white max-w-3xl mx-auto">
+              High-quality water treatment equipment and systems for
+              residential, commercial, and industrial applications
             </p>
           </div>
         </section>
@@ -25,37 +25,47 @@ export default function ProductsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* Column 1 */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-[#1e40af] mb-4">Residential Systems</h3>
+                <h3 className="text-lg font-semibold text-cyan-700">
+                  Residential Systems
+                </h3>
                 <div className="space-y-3">
                   <Link
                     href="/products/domestic-water-purifier"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Domestic Water Purifier</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Domestic Water Purifier
+                    </span>
                   </Link>
                   <Link
                     href="/products/jumbo-water-filters"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Jumbo Water Filters</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Jumbo Water Filters
+                    </span>
                   </Link>
                   <Link
                     href="/products/jumbo-water-filters-uv"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Jumbo Water Filters With U.V. Sterilizer</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Jumbo Water Filters With U.V. Sterilizer
+                    </span>
                   </Link>
                   <Link
                     href="/products/water-dispenser"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Water Dispenser</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Water Dispenser
+                    </span>
                   </Link>
                   <Link
                     href="/products/filter-cartridges"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">
+                    <span className="text-gray-700 hover:text-cyan-700">
                       Filter Cartridges Spares Parts & Filter Bags
                     </span>
                   </Link>
@@ -63,19 +73,23 @@ export default function ProductsPage() {
                     href="/products/shower-filter"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Shower Filter</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Shower Filter
+                    </span>
                   </Link>
                   <Link
                     href="/products/water-softener-residential"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Water Softener For Residential</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Water Softener For Residential
+                    </span>
                   </Link>
                   <Link
                     href="/products/water-softener-commercial"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">
+                    <span className="text-gray-700 hover:text-cyan-700">
                       Water Softener For Commercial & Industrial
                     </span>
                   </Link>
@@ -84,37 +98,47 @@ export default function ProductsPage() {
 
               {/* Column 2 */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-[#1e40af] mb-4">Industrial Systems</h3>
+                <h3 className="text-lg font-semibold text-cyan-700">
+                  Industrial Systems
+                </h3>
                 <div className="space-y-3">
                   <Link
                     href="/products/hydro-pneumatic-system"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Hydro Pneumatic System</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Hydro Pneumatic System
+                    </span>
                   </Link>
                   <Link
                     href="/products/ozonation-system"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Ozonation System</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Ozonation System
+                    </span>
                   </Link>
                   <Link
                     href="/products/chlorine-dosing-system"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Chlorine Dosing System</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Chlorine Dosing System
+                    </span>
                   </Link>
                   <Link
                     href="/products/multimedia-filter-residential"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Multimedia Filter For Residential</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Multimedia Filter For Residential
+                    </span>
                   </Link>
                   <Link
                     href="/products/multimedia-filter-commercial"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">
+                    <span className="text-gray-700 hover:text-cyan-700">
                       Multimedia Filter For Commercial & Industrial
                     </span>
                   </Link>
@@ -122,111 +146,147 @@ export default function ProductsPage() {
                     href="/products/activated-carbon-filter"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Activated carbon Filter</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Activated carbon Filter
+                    </span>
                   </Link>
                   <Link
                     href="/products/reverse-osmosis-system"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Reverse Osmosis System 200 GPD & 400 GPD</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Reverse Osmosis System 200 GPD & 400 GPD
+                    </span>
                   </Link>
                   <Link
                     href="/products/brackish-water-ro"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Brackish Water Reverse Osmosis System</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Brackish Water Reverse Osmosis System
+                    </span>
                   </Link>
                 </div>
               </div>
 
               {/* Column 3 */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-[#1e40af] mb-4">Advanced Treatment</h3>
+                <h3 className="text-lg font-semibold text-cyan-700">
+                  Advanced Treatment
+                </h3>
                 <div className="space-y-3">
                   <Link
                     href="/products/sea-water-ro"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Sea Water Reverse Osmosis System</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Sea Water Reverse Osmosis System
+                    </span>
                   </Link>
                   <Link
                     href="/products/grey-green-water-treatment"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Grey+Green Water Treatment System</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Grey+Green Water Treatment System
+                    </span>
                   </Link>
                   <Link
                     href="/products/demineralised-plants"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Demineralised Plants & Mixed Bed Plants</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Demineralised Plants & Mixed Bed Plants
+                    </span>
                   </Link>
                   <Link
                     href="/products/uf-ultra-filteration"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">UF Ultra Filteration Water System</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      UF Ultra Filteration Water System
+                    </span>
                   </Link>
                   <Link
                     href="/products/micron-cartridge-filter"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Micron Cartridge Filter</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Micron Cartridge Filter
+                    </span>
                   </Link>
                   <Link
                     href="/products/ultra-violet-sterilizer"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Ultra Voilet Sterilizer</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Ultra Voilet Sterilizer
+                    </span>
                   </Link>
                   <Link
                     href="/products/micro-filter"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Micro Filter</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Micro Filter
+                    </span>
                   </Link>
                   <Link
                     href="/products/water-treatment-accessories"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Water Treatment Accessories & Components</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Water Treatment Accessories & Components
+                    </span>
                   </Link>
                 </div>
               </div>
 
               {/* Column 4 */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-[#1e40af] mb-4">Services & Accessories</h3>
+                <h3 className="text-lg font-semibold text-cyan-700">
+                  Services & Accessories
+                </h3>
                 <div className="space-y-3">
                   <Link
                     href="/products/filter-media-salt-bags"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Filter Media & Salt Bags</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Filter Media & Salt Bags
+                    </span>
                   </Link>
                   <Link
                     href="/products/water-testing-instrument"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Water Testing Instrument</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Water Testing Instrument
+                    </span>
                   </Link>
                   <Link
                     href="/products/water-analysis-consultation"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Water Analysis & Consultation</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Water Analysis & Consultation
+                    </span>
                   </Link>
                   <Link
                     href="/products/water-filter-service-amc"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Water Filter Service & AMC</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Water Filter Service & AMC
+                    </span>
                   </Link>
                   <Link
                     href="/products/water-tank-cleaning"
                     className="block p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <span className="text-gray-700 hover:text-[#1e40af]">Water Tank Cleaning & Disinfection</span>
+                    <span className="text-gray-700 hover:text-cyan-700">
+                      Water Tank Cleaning & Disinfection
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -239,5 +299,5 @@ export default function ProductsPage() {
 
       <Footer />
     </div>
-  )
+  );
 }

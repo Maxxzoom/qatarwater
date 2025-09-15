@@ -20,10 +20,10 @@ export default function ServicesPage() {
       <Header />
 
       {/* Page Header */}
-      <div className="bg-slate-800 text-white px-4 py-16">
+      <div className="bg-cyan-700 text-white px-4 py-16">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Our Services</h1>
-          <p className="text-cyan-400">
+          <p className="text-white">
             Comprehensive water treatment solutions for all your needs
           </p>
         </div>

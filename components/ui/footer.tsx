@@ -4,13 +4,12 @@ const Footer = () => {
   return (
     <div>
       {/* Footer */}
-      <footer className="bg-slate-800 text-white px-4 py-12">
+      <footer className="bg-cyan-700 text-white px-4 py-12">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-bold mb-4">
-                                Tyson Group of Industry
-
+                Tyson Group of Industry
               </h3>
               <p className="text-gray-300 text-sm leading-relaxed mb-4">
                 Flat No. B1 1104, Sr. No. 28/2A, Shakuntala Kanade Park, Katraj
@@ -36,42 +35,42 @@ const Footer = () => {
               <h3 className="text-lg font-bold mb-4">Links</h3>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li>
-                  <Link href="/" className="hover:text-cyan-400">
+                  <Link href="/" className="hover:text-white">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about" className="hover:text-cyan-400">
+                  <Link href="/about" className="hover:text-white">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services" className="hover:text-cyan-400">
+                  <Link href="/services" className="hover:text-white">
                     Our Services
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products" className="hover:text-cyan-400">
+                  <Link href="/products" className="hover:text-white">
                     Products
                   </Link>
                 </li>
                 <li>
-                  <Link href="/clients" className="hover:text-cyan-400">
+                  <Link href="/clients" className="hover:text-white">
                     Clients
                   </Link>
                 </li>
                 <li>
-                  <Link href="/articles" className="hover:text-cyan-400">
+                  <Link href="/articles" className="hover:text-white">
                     Articles
                   </Link>
                 </li>
                 <li>
-                  <Link href="/enquiry" className="hover:text-cyan-400">
+                  <Link href="/enquiry" className="hover:text-white">
                     Enquiry
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" className="hover:text-cyan-400">
+                  <Link href="/contact" className="hover:text-white">
                     Contact Us
                   </Link>
                 </li>
@@ -103,8 +102,8 @@ const Footer = () => {
           </div>
           <div className="border-t border-gray-700 mt-8 pt-6 text-center">
             <p className="text-gray-400 text-sm">
-              © 2025 TYSON. All rights
-              reserved. Created by Maxxzoom India Pvt Ltd
+              © 2025 TYSON. All rights reserved. Created by Maxxzoom India Pvt
+              Ltd
             </p>
           </div>
         </div>

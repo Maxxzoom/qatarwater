@@ -10,10 +10,10 @@ export default function ClientsPage() {
       <Header />
 
       {/* Page Header */}
-      <div className="bg-slate-800 text-white px-4 py-16">
+      <div className="bg-cyan-700 text-white px-4 py-16">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Our Clients</h1>
-          <p className="text-xl text-gray-300">
+          <p className="text-xl text-white">
             Trusted by Leading Organizations Across the Region
           </p>
         </div>
