@@ -9,7 +9,8 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-bold mb-4">
-                Muscat Water Treatment Trading & Contracting
+                                Tyson Group of Industry
+
               </h3>
               <p className="text-gray-300 text-sm leading-relaxed mb-4">
                Flat No. B1 1104,
@@ -21,16 +22,16 @@ PIN Code: 412308.
               </p>
               <div className="text-gray-300 text-sm space-y-1">
                 <p>
-                  <strong>Address:</strong> Muscat, Sultanate of Oman
+                  <strong>Address:</strong> Maharashtra, India
                 </p>
                 <p>
                   <strong>Phone:</strong> +91 9604338704
                 </p>
                 <p>
-                  <strong>Email:</strong> response@qatarwatertreatment.com
+                  <strong>Email:</strong> bhosale99@gmail.com
                 </p>
                 <p>
-                  <strong>Website:</strong> www.qatarwatertreatment.com
+                  <strong>Website:</strong> www.dummy.com
                 </p>
               </div>
             </div>
@@ -95,7 +96,7 @@ PIN Code: 412308.
                   <strong>Contact Information:</strong>
                 </p>
                 <p>Tel: +91 9604338704</p>
-                <p>Email: dummy@gmail.com</p>
+                <p>Email: bhosale99@gmail.com</p>
                 <p className="mt-4">
                   <strong>Service Areas:</strong>
                 </p>
@@ -106,7 +107,7 @@ PIN Code: 412308.
           <div className="border-t border-gray-700 mt-8 pt-6 text-center">
             <p className="text-gray-400 text-sm">
               © 2025 TYSON. All rights
-              reserved. 
+              reserved. Created by Maxxzoom India Pvt Ltd
             </p>
           </div>
         </div>
